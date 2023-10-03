@@ -1,4 +1,14 @@
-output_file = './recorded.txt' 
+"""
+better to run on a GUI available machine, such as window system.
+It will show up a window and let you to rightclick the point located within the target object you want.
+
+Two or three point for a single image is fine. 
+
+after multiple right clicks, put any buttons from the keybroad can exit. 
+
+
+"""
+output_file = './example/recorded.txt' 
 mode = 1
 mode_cand = ['add_file','add','overwrite']
 # add_file will skip recorded file
